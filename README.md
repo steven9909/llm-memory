@@ -19,3 +19,10 @@ Comparison of Attention Costs
    - Attention cost: $O(n^2) + O(max(m, n)^2)$
 
 This significantly reduces the computational overhead when handling large contexts while maintaining the model's performance.
+
+## File Content
+
+ - llm.ipynb
+   - Main code that contains the demonstration of how self attention can be replaced.
+ - convert.py
+   - Conversion code that converts the checkpoint downloaded from llama website into transformers format. 
